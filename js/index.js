@@ -37,59 +37,71 @@ const getUser = users => {
 
         <div class="user-icons grid grid-cols-6 gap-20 w-1/2 mx-auto py-4 my-4">
         <button onmouseover="showUserName('${user.name.title}', '${user.name.first}', '${user.name.last}')" id="user-name" class="user-name">
+            <span class="name">
             <i
             class="far fa-user text-4xl text-gray-300 hover:text-green-300"
             ></i>
+            </span>
         </button>
 
         <button onmouseover="showUserEmail('${user.email}' )" class="user-email">
-            <i
-            class="
-            far
-            fa-envelope
-            text-4xl text-gray-300
-            hover:text-green-300
-            "
-            ></i>
+            <span class="email">
+                <i
+                class="
+                far
+                fa-envelope
+                text-4xl text-gray-300
+                hover:text-green-300
+                "
+                ></i>
+            </span>
         </button>
 
         <button onmouseover="showUserBirthday('${user.registered.date}')" class="user-birthday">
-            <i
-            class="
-                far
-                fa-calendar
-                text-4xl text-gray-300
-                hover:text-green-300
-            "
-            ></i>
+            <span class="birthday">
+                <i
+                class="
+                    far
+                    fa-calendar
+                    text-4xl text-gray-300
+                    hover:text-green-300
+                "
+                ></i>
+            </span>
         </button>
 
         <button onmouseover="showUserAddress('${user.location.street.number}', '${user.location.street.name}', '${user.location.city}')" class="user-address">
-            <i
-            class="
-            fas
-            fa-map-marked
-            text-4xl text-gray-300
-            hover:text-green-300
-            "
-            ></i>
+            <span class="address">
+                <i
+                class="
+                fas
+                fa-map-marked
+                text-4xl text-gray-300
+                hover:text-green-300
+                "
+                ></i>
+            </span>
         </button>
 
         <button onmouseover="showUserNumber('${user.phone}')" class="user-phone">
-            <i
-            class="
-            fas
-            fa-phone-alt
-            text-4xl text-gray-300
-            hover:text-green-300
-            "
-            ></i>
+           <span class="phone">
+                <i
+                class="
+                fas
+                fa-phone-alt
+                text-4xl text-gray-300
+                hover:text-green-300
+                "
+                ></i>
+           </span>
         </button>
 
         <button onmouseover="showUserPassword('${user.login.password}')" class="user-password">
-            <i
-            class="fas fa-lock text-4xl text-gray-300 hover:text-green-300"
-            ></i>
+           <span class="password">
+                <i
+                class="fas fa-lock text-4xl text-gray-300 hover:text-green-300"
+                ></i>
+           </span>
         </button>
 
         </div>

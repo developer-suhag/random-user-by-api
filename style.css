@@ -1,0 +1,153 @@
+.name,
+.email,
+.birthday,
+.password,
+.phone,
+.address {
+  position: relative;
+  display: block;
+}
+
+/* hover for name  */
+.name::after {
+  content: "";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f007";
+  top: 0;
+  left: 0;
+  font-size: 37px;
+  color: #83ba43;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transform-origin: top center;
+  transition: 0.4s;
+}
+
+.name:hover.name::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-8px);
+}
+
+/* hover for email  */
+.email::after {
+  content: "";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f0e0";
+  top: 0;
+  left: 0;
+  font-size: 37px;
+  color: #83ba43;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transform-origin: top center;
+  transition: 0.4s;
+}
+
+.email:hover.email::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-8px);
+}
+
+/* hover for birthday  */
+.birthday::after {
+  content: "";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f133";
+  top: 0;
+  left: 0;
+  font-size: 37px;
+  color: #83ba43;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transform-origin: top center;
+  transition: 0.4s;
+}
+
+.birthday:hover.birthday::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-8px);
+}
+
+/* hover for birthday  */
+.address::after {
+  content: "";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f59f";
+  top: 0;
+  left: 0;
+  font-size: 37px;
+  color: #83ba43;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transform-origin: top center;
+  transition: 0.4s;
+}
+
+.address:hover.address::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-8px);
+}
+
+/* hover for phone  */
+.phone::after {
+  content: "";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f879";
+  top: 0;
+  left: 0;
+  font-size: 37px;
+  color: #83ba43;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transform-origin: top center;
+  transition: 0.4s;
+}
+
+.phone:hover.phone::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-8px);
+}
+
+/* hover for password  */
+.password::after {
+  content: "";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f023";
+  top: 0;
+  left: 0;
+  font-size: 37px;
+  color: #83ba43;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transform-origin: top center;
+  transition: 0.4s;
+}
+
+.password:hover.password::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-8px);
+}
