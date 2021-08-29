@@ -32,7 +32,7 @@ const getUser = users => {
         class="user-details flex justify-center flex-col items-center py-4"
         >
             <p id="user-title" class="text-xl text-gray-400"></p>
-            <p id="user-value" class="text-4xl capitalize text-indigo-800"></p>
+            <p style="color: #2C3A47" id="user-value" class="text-4xl capitalize font-medium"></p>
         </div>
 
         <div class="user-icons grid grid-cols-6 gap-20 w-1/2 mx-auto py-4 my-4">
@@ -155,3 +155,11 @@ const showUserPassword = pass => {
     userTitle.innerText = `My password is`;
     userValue.innerText = `${pass}`
 };
+
+
+// show next user 
+const showNextUser = () => {
+    const userContainer = document.getElementById('user');
+    userContainer.innerHTML = '';
+    getUserData()
+}
