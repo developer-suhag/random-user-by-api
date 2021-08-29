@@ -1,3 +1,12 @@
+.top-section {
+  background: #1abc9c;
+  height: 300px;
+}
+.user-container {
+  margin-top: -200px;
+}
+
+/* hover effect  */
 .name,
 .email,
 .birthday,

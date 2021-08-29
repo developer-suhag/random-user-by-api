@@ -20,18 +20,21 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-purple-100">
-    <section class="container w-3/4 mx-auto py-8">
+  <body class="">
+    <section class="container py-8 top-section">
       <h2
-        style="color: #0a3d62"
+        style="color: #ecf0f1"
         class="text-center text-4xl uppercase font-bold"
       >
         Get Random User
       </h2>
     </section>
     <!-- user section  -->
-    <section class="container w-3/4 mx-auto p-8">
-      <div id="user" class="user w-3/4 mx-auto bg-white p-8 rounded-xl"></div>
+    <section class="container w-3/4 mx-auto p-8 user-container">
+      <div
+        id="user"
+        class="user w-3/4 mx-auto bg-white p-8 rounded-xl shadow-2xl"
+      ></div>
       <div class="flex justify-end mr-36 my-8">
         <button
           onclick="showNextUser()"
